@@ -1,8 +1,8 @@
 module counter_parametrized(clear, clock, count);
     parameter N = 7;
     input clear, clock;
-    output [0:N] count; 
-    reg [0:N] count;
+    output [N:0] count; 
+    reg [N:0] count;
 
     always @(negedge clock)
         if (clear)
