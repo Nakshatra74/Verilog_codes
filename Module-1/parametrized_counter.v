@@ -6,7 +6,7 @@ module counter_parametrized(clear, clock, count);
 
     always @(negedge clock)
         if (clear)
-            count <=0;
+            count <=0;        // any varibale assigned inside aleways block must be of type reg
         else    
             count <= count + 1;
 endmodule
