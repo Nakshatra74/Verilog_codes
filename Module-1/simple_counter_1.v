@@ -1,4 +1,4 @@
-module simple_counter (clock, reset, count);
+module simple_counter (clock, reset, count);    // counter with synchronous reset
     input clock, reset;
     output [31:0] count;
   reg [31:0] count;  //using reg here means count is a variable that can store a value
