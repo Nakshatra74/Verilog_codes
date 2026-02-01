@@ -1,2 +1,2 @@
 # Verilog_codes
-here i will put all my verilog codes i learn through courses
+here i have put all my verilog codes i learn through courses (like from Prof. Indranil Sengupta (NPTEL))
